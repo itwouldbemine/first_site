@@ -14,22 +14,6 @@ body  {
 ul {
   padding: 50px 0px 50px 0px;
 }
-input[type="submit"]  {
-  background: blue;
-  font-size: 18px;
-  border: 2px dashed black;
-  padding: 5px;
-    }
-  input[type="email"] {
-    font-size: 18px;
-    border: 2px dashed black;
-    padding: 5px;
-  }
-  input[type="text"] {
-    font-size: 18px;
-    border: 2px dashed black;
-    padding: 5px;
-  }
   
 </style>
 </head>
@@ -38,12 +22,8 @@ input[type="submit"]  {
 <h1>Georgia Wright</h1>
 <h2>A final year Classicist and aspiring lawyer<h2>
 
-<form method="post" action="http://forms.brace.io/georgiahwright@gmail.com">
-<input type="hidden" name="_next" value="http://localhost:5000/thanks.html">
-<input type="email" placeholder="Your email">
-<input type="text" placeholder="Your name" name="name">
-<input type="submit" class="btn">
-</form>
+<h3>About Me</h3>
+<h4>Text Text</h4>
 
 <h4><a href="www.google.com">Looking for something else?</a>
 <ul>
