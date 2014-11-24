@@ -22,6 +22,11 @@ input[type="submit"]  {
     border: 2px dashed black;
     padding: 5px;
   }
+  input[type="text"] {
+    font-size: 18px;
+    border: 2px dashed black;
+    padding: 5px;
+  }
   
 </style>
 </head>
@@ -29,8 +34,14 @@ input[type="submit"]  {
 <img alt='my eyes' src=http://i.imgur.com/Z60VsHi.png">
 <h1>Georgia Wright</h1>
 <h2>A classicist  cooking, coding and consulting<h2>
+
+<form method="post" action="http://forms.brace.io/georgiahwright@gmail.com">
+<input type="hidden" name="_next" value="http://localhost:5000/thanks.html">
 <input type="email" placeholder="Your email">
-<input type="submit">
+<input type="text" placeholder="Your name" name="name">
+<input type="submit" class="btn">
+</form>
+
 <h4><a href="www.google.com">Looking for something else?</a>
 <ul>
     <li>I attend the University of Bristol</li>
@@ -38,11 +49,7 @@ input[type="submit"]  {
 </ul>
 <marquee>Join the newsletter to keep updated!</marquee></h4>
 
-        <form method="post" action="http://forms.brace.io/georgiahwright@gmail.com">
-            <input type="hidden" name="_next" value="http://localhost:5000/thanks.html">
-            <input type="text" name="name">
-            <input type="text" name="email">
-            <input type="submit" class="btn">
+        
 
-        </form>
+       
 </body>
